@@ -9,7 +9,10 @@
 <h2> Employee Info</h2>
 <br>
 
+<%--@elvariable id="emploee" type=""--%>
 <form:form action="saveEmployee" modelAttribute="emploee">
+
+    <form:hidden path="id"/>
 
     Name <form:input path="name"/>
     <br><br>
